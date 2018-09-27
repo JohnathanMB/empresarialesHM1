@@ -1,0 +1,17 @@
+<div>
+  <h2>Buscar Item</h2>
+  <input #titleItem/>
+  <button (click)="searchItem(titleItem.value); titleItem.value=''">Buscar</button>
+</div>
+
+<div *ngIf="items">
+  <h2>Lista de Articulos</h2>
+  <ul class="list-items">
+    <li *ngFor="let item of items">
+      <div class="title"><label>Tilte: {{item.title}}</label></div>
+      <div class="price"><label>Price: {{item.price}}</label></div>
+      <div class="thumbnail"><img src="{{item.thumbnail}}"></div>
+  </li>
+  </ul>
+</div>
+
