@@ -3,15 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SearchItemComponent } from './search-item/search-item.component';
-import { ListItemsComponent } from './list-items/list-items.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchItemComponent,
-    ListItemsComponent
+    SearchItemComponent
   ],
   imports: [
     BrowserModule,

@@ -16,7 +16,7 @@ export class ItemService {
   constructor(private http: HttpClient) { }
 
   getItemTitle(titleItem: string): Observable<any>{
-    const itemUrl = `https://api.mercadolibre.com/sites/MLU/search?q=${titleItem}&limit=10`;
+    const itemUrl = `https://api.mercadolibre.com/sites/MLU/search?q=${titleItem}`;
     return this.http.get(itemUrl);
   }
 
