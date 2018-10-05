@@ -1,0 +1,33 @@
+header{
+    
+    background-color: #f4ca00;
+    height: 70px;
+    width: auto;
+    position: relative;
+    padding: 5px 5px 5px 5px;
+}
+
+.header_jm{
+    float: left;
+    padding: 15px 15px 15px 15px;
+    color: #000000;
+	font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    border: 1px solid #000000;
+}
+
+    .header_jm:hover{
+        color: #f4ca00;
+        background-image: url("https://res.cloudinary.com/zoominfo-com/image/upload/w_70,h_70,c_fit/v1497349368/github.com");
+        background-position: center;
+    }
+
+
+.header_title{
+    color: #535353;
+    float: left;
+	font-weight: 700;
+    font-size: 1.5em;
+    padding: 22px 15px 15px 15px;
+}
